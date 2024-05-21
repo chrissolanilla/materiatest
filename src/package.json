@@ -1,0 +1,16 @@
+{
+	"name": "connections-game-materia-widget",
+	"version": "0.1.0",
+	"description": "My awesome project",
+	"scripts": {
+		"start": "mwdk-start",
+		"build": "mwdk-build-prod",
+		"build-dev": "mwdk-build-dev"
+	},
+	"author": "Your Name",
+	"license": "",
+	"dependencies": {
+		"materia-widget-development-kit": "^3.0.2"
+	},
+	"devDependencies": {}
+}
