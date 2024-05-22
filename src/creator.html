@@ -13,8 +13,75 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/16.9.0/umd/react-dom.development.js"></script>
 	</head>
 	<body>
-		<div id="root"></div>
-		
+		<header>
+			<h1>Create a Puzzle</h1>
+		</header>
+		<form>
+			<div class="CreaterForm">
+				<!--blue-->
+				<div class="CreatorKVP Blue">
+					<div class="CreatorAnswers">
+						<label for="Words1" > Answers (Comma-seperated)</label>
+						<!--attached the input to the value-->
+						<input type="text" name="Words1" value="" />
+					</div>
+	
+					<div class="AnswerDescriptions">
+						<label for="Description1"> Description</label>
+						<!--attached the input to the value-->
+						<input type="text" name="Description1" value="" />
+					</div>
+				</div>
+				<!--green-->
+				<div class="CreatorKVP Green">
+					<div class="CreatorAnswers">
+						<label for="Words2" > Answers (Comma-seperated)</label>
+						<!--attached the input to the value-->
+						<input type="text" name="Words2" value="" />
+					</div>
+					
+					<div class="AnswerDescriptions">
+						<label for="Description2"> Description</label>
+						<!--attached the input to the value-->
+						<input type="text" name="Description2" value="" />
+					</div>
+				</div>
+				<!--yellow-->
+				<div class="CreatorKVP Yellow">
+					<div class="CreatorAnswers">
+						<label for="Words3" > Answers (Comma-seperated)</label>
+						<!--attached the input to the value-->
+						<input type="text" name="Words3" value="" />
+					</div>
+	
+					<div class="AnswerDescriptions">
+						<label for="Description3"> Description</label>
+						<!--attached the input to the value-->
+						<input type="text" name="Description3" value="" />
+					</div>
+				</div>
+				<!--pink-->
+				<div class="CreatorKVP Pink">
+					<div class="CreatorAnswers">
+						<label for="Words4" > Answers (Comma-seperated)</label>
+						<!--attached the input to the value-->
+						<input type="text" name="Words4" value="" />
+					</div>
+	
+					<div class="AnswerDescriptions">
+						<label for="Description4"> Description</label>
+						<!--attached the input to the value-->
+						<input type="text" name="Description4" value="" />
+					</div>
+				</div>
+
+			</div>
+
+			<div class="wordsPreview">
+				
+			</div>
+		</form>	
+
 		<script src="creator.js"></script>
 	</body>
 </html>
